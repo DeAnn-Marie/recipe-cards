@@ -1,0 +1,167 @@
+body {
+	background-color: #DAF7F6;
+	font-family: 'Open Sans';
+	line-height: 16px;
+}
+header{
+	background-color: white;
+	text-align: center;
+}
+
+h1{
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	color: #F16059;
+	font-size: 48px;
+	font-weight: bold;
+}
+header img{
+	margin-right: 15px;
+}
+
+main{
+	width: 1000px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.card {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;	
+}
+
+.image {
+	display: inline-block;
+	width: 500px;
+	height: 550px;
+	float: left;
+}
+
+.recipe {
+	box-sizing: border-box;
+	width: 500px;
+	height: 550px;
+	float: left;
+	padding: 20px;
+	background-color: white;
+}
+
+h2 {
+	font-family: "Montserrat" ;
+	text-transform: uppercase;
+	color: #F16059;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 5px;
+}
+
+h3 {
+	color: #F16059;
+	border-top: 1px solid #3B3B3B;
+	border-bottom: 1px solid #3B3B3B;
+	font-family: "Montserrat";
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-size: 12px;
+}
+#cookies .image {
+	background-image: url("../img/gluten-free-sugar-cookies.jpg");	
+}
+
+#pesto .image {
+	background-image: url("../img/nut-free-pesto.jpg");
+}
+
+#salad .image {
+	background-image: url("../img/watermelon-salad.jpg");
+}
+.time {
+	margin-bottom: 20px;
+	border: 1px solid #3B3B3B;
+	overflow: auto;
+}
+.time strong {
+	font-family: 'Montserrat'
+}
+ .time-details {
+	 display: inline-block;	
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	width: 33.3333%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time .cook {
+	border-left: 1px solid #3B3B3B;
+	border-right: 1px solid #3B3B3B;
+	font-size: 12px;
+}
+
+.time img{
+	width: 15px;
+	height: auto;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.columns {
+	overflow: auto;	
+}
+
+.directions {
+	width: 240px;
+	float: left;
+	line-height: 2;
+    font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+ol {
+	padding-left: 14px;
+}
+
+.ingredients {
+	width: 205px;
+	float: left;
+    margin-right: 10px;
+    line-height: 2;
+    font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+ul{
+    padding-left: 18px;
+    list-style: square;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
